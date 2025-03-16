@@ -1,8 +1,8 @@
-lista = []
+numero = 1
+while numero >= 0:
+    numero = int(input("Ingrese un numero: "))
+    if numero > 0:
+        print(f"Ingresado: {numero}")
 
-for i in range (5):
-    numero = int(input("Ingrese el numero: "))
-    lista = lista+[numero]
-
-print("Lista de numeros: ", lista)
+print("Se ingreso un numero negativo")
 
